@@ -6,7 +6,7 @@ py3 = $(python3 --version | cut -c 8)
 
 #code
 echo "Hello"
-echo "On your computer were installed newt versions of Python:"
+echo "On your computer were installed next versions of Python:"
 echo "Python2:" $(python2 -V 2>&1 | cut -c 8-)
 echo "Python3:" $(python3 -V | cut -c 8-)
 
