@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Hi "$name", this script show you such system information as: its version, uptime, operating system, kernel, processor name, firewall configuration, etc. "
+echo "Hi "$name", this script shows you such system information as: its version, uptime, operating system, kernel, processor name, firewall configuration, etc. "
 
 sudo echo "Script output information about your OS to file 'output_script_2.txt'."
 exec 1> output_script_2.txt
